@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <div className="flex flex-row justify-between items-center m-10">
+    <div className="flex flex-row justify-between items-center p-10 bg-secondary">
       <div>
         <Link href="/">
           <Image

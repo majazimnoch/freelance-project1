@@ -2,8 +2,8 @@ import React from "react";
 import Image from "next/image";
 export default function Section1() {
   return (
-    <div className="flex justify-center items-center">
-      <div className="flex justify-center items-center flex-wrap p-10">
+    <div className="flex justify-center items-center py-10">
+      <div className="flex justify-center items-center lg:gap-14 flex-wrap p-10">
         <div className="bg-primary flex flex-col justify-start items-center relative w-80 h-96 m-3 p-6 rounded-3xl">
           <Image
             src="/images/icon.png"

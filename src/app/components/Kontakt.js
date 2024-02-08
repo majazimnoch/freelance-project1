@@ -10,8 +10,8 @@ export default function Kontakt() {
             <Image
               src="/images/pin.png"
               alt="logo"
-              width={60}  // Adjusted image width
-              height={60} // Adjusted image height
+              width={60}  
+              height={60} 
               className="logo-nav"
             />
           </div>
