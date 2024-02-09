@@ -7,15 +7,17 @@ module.exports = {
   ],
   theme: {
     colors: {
-      'background': '#2c3fa8',
-      'primary': '#ffc638',
-      'secondary': '#f57cc3',
-      'bottom': '#f0848e',
-      'white':'#ffffff',
-      'black':'#000000'
+      background: "#2c3fa8",
+      primary: "#ffc638",
+      secondary: "#f57cc3",
+      bottom: "#f0848e",
+      white: "#ffffff",
+      black: "#000000",
     },
     extend: {
-
+      fontFamily: {
+        Manrope: ["Manrope", "sans-serif"],
+      },
     },
   },
   plugins: [],

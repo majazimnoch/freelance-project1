@@ -1,16 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
 }
 
 /* for Intro.js */
 @keyframes animate {
-  0%, 100% {
+  0%,
+  100% {
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
   }
 
@@ -18,8 +23,8 @@
     border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
   }
 }
- /* Button arrow */
- button {
+/* Button arrow */
+button {
   transition: background-color 0.3s ease-in-out;
 }
 
@@ -29,17 +34,17 @@ button:hover {
 
 button:hover .arrow-btn {
   transform: translateX(5px); /* Adjust the value as needed */
-  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55); 
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
 }
 
- /* Button arrow UP */
+/* Button arrow UP */
 
- /* Social icons in the footer */
- .social-icon{
-  transition: all .2s ease-in-out;
- }
+/* Social icons in the footer */
+.social-icon {
+  transition: all 0.2s ease-in-out;
+}
 
- .social-icon:hover {
+.social-icon:hover {
   transform: scale(1.1);
- }
-  /* Social icons in the footer */
+}
+/* Social icons in the footer */
