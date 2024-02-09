@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <div className="flex flex-row justify-between items-center p-10 bg-secondary">
+    <div className="font-bold flex flex-row uppercase md:text-lg justify-between items-center p-10 bg-secondary">
       <div>
         <Link href="/">
           <Image
@@ -16,7 +16,7 @@ export default function Navbar() {
           />
         </Link>
       </div>
-      <div className="flex flex-row gap-10 list-none">
+      <div className="flex flex-row gap-10 list-none text-background ">
         <li>
           <Link href="/">Strona glowna</Link>
         </li>
