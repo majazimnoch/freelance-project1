@@ -4,6 +4,7 @@ import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 import Section1 from "./components/Section1";
 import Section2 from "./components/Footer";
+import UnderFooter from "./components/Underfooter";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Intro />
         <Section1 />
         <Section2 />
+        <UnderFooter />
       </body>
     </>
   );
