@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Intro from "./components/Intro";
 import Navbar from "./components/Navbar";
 import Section1 from "./components/Section1";
-import Section2 from "./components/Footer";
+import Footer from "./components/Footer";
 import UnderFooter from "./components/Underfooter";
 
 export default function Home() {
@@ -18,7 +18,7 @@ export default function Home() {
         <Header />
         <Intro />
         <Section1 />
-        <Section2 />
+        <Footer />
         <UnderFooter />
       </body>
     </>

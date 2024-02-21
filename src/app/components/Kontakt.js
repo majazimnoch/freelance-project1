@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Kontakt() {
   return (
-     <div className="bg-white lg:px-20 lg:py-40 flex flex-col justify-center gap-10 lg:flex-row">
+     <div className="bg-primary lg:px-20 lg:py-40 flex flex-col justify-center gap-10 lg:flex-row">
       <div className="flex flex-col gap-10 p-10">
         <div className="flex flex-row gap-5 items-center">
           <div className="flex items-center justify-center">
