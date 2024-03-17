@@ -13,7 +13,7 @@ export default function Home() {
         <title>Witaj na stronie Fajnej Logopedki!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <body className="bg-background">
+      <body className="bg-white">
         <Navbar />
         <Header />
         <Intro />
