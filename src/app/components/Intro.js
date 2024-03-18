@@ -3,9 +3,11 @@ import Button from "./Button";
 
 export default function Intro() {
   return (
-    <div className="bg-background text-white flex flex-col items-center py-20 gap-10">
-      <div className="px-5 md:px-20 lg:px-80 flex flex-col lg:flex-row gap-5 justify-center items-center">
-        <div className="flex items-center">
+    <div className="bg-background text-white flex flex-col items-center py-20 gap-10 border border-red-600 border-solid">
+
+      <div className="border border-red-600 border-solid px-5 md:px-20 lg:px-80 flex flex-col lg:flex-row gap-5 justify-center items-center">
+        
+        <div className="flex items-center border border-red-600 border-solid">
           <div
             className="bg-cover bg-center rounded-full"
             style={{
@@ -18,7 +20,7 @@ export default function Intro() {
             }}
           />
         </div>
-        <div className="w-full px-2 md:px-10">
+        <div className="w-600 border border-red-600 border-solid">
           <h1 className="text-2xl">Hej!</h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
@@ -28,10 +30,12 @@ export default function Intro() {
             molestie. Mauris egestas a justo ut condimentum.
           </p>
         </div>
-      </div>
+</div>
+
       <div>
         <Button />
       </div>
+
     </div>
   );
 }
