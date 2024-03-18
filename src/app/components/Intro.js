@@ -20,7 +20,7 @@ export default function Intro() {
             }}
           />
         </div>
-        <div className="p-5 w-80 border border-red-600 border-solid md:w-96 lg:w-600">
+        <div className="p-5 w-80 md:w-96 lg:w-600">
           <h1 className="text-2xl">Hej!</h1>
           <p className="leading-relaxed">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed
