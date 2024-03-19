@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Section1 from "./components/Section1";
 import Footer from "./components/Footer";
 import UnderFooter from "./components/Underfooter";
+import CookiesConsent from "./components/CookiesConsent";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Section1 />
         <Footer />
         <UnderFooter />
+        <CookiesConsent />
       </body>
     </>
   );
