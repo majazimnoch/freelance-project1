@@ -35,3 +35,6 @@ export default function CookiesConsent() {
     </div>
   )
 }
+
+
+/* continue 16:17 min https://www.youtube.com/watch?v=_X1TAcXBd34 */
