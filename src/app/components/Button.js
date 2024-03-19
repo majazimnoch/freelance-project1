@@ -2,9 +2,12 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Button({ buttonText, imageSrc, link }) {
+export default function Button({ buttonText, imageSrc, link, onClick }) {
   const buttonContent = (
-    <button className="bg-secondary text-white flex flex-row items-center py-4 px-6 rounded-xl">
+    <button 
+      onClick={onClick}
+      className="bg-secondary text-white flex flex-row items-center py-4 px-6 rounded-xl"
+    >
       <p>{buttonText}</p>
       {imageSrc && (
         <Image
