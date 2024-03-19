@@ -9,7 +9,8 @@ export default function Footer() {
     <div>
       <div className="bg-background flex flex-col md:flex-row gap-10 justify-center items-center px-20 py-10">
         <div className="flex flex-col gap-3">
-          <Button />
+          <Button buttonText="Umow wizyte" imageSrc="/images/arrow.png" link="/pages/kontakt" />
+
         </div>
         <div className="flex flex-row gap-5">
           <Link href="/">

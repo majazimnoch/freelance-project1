@@ -33,7 +33,7 @@ export default function Intro() {
 </div>
 
       <div>
-        <Button />
+      <Button buttonText="Umow wizyte" imageSrc="/images/arrow.png" link="/pages/kontakt" />
       </div>
 
     </div>
