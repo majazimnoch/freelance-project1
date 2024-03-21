@@ -7,10 +7,8 @@ export default function Latest() {
   return (
     <div className="bg-background h-screen flex flex-col justify-between">
     <div>
-      <Navbar />
       cookies content
     </div>
-    <Footer />
   </div>
   )
 }

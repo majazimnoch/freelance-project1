@@ -43,7 +43,7 @@ export default function Footer() {
         </div>
       </div>
       <div>
-        <LottieAnimation /> {/* Render the LottieAnimation component */}
+       {/*  <LottieAnimation /> {/* Render the LottieAnimation component */} 
       </div>
     </div>
   );
