@@ -19,10 +19,10 @@ export default function Home() {
         <Header />
         <Intro />
         <Section1 />
+        <CookiesConsent />
         <Footer />
         <UnderFooter />
-        <CookiesConsent />
       </body>
     </>
   );
-};
+}
