@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { hasCookie, setCookie } from "cookies-next";
 import Link from "next/link";
 import Button from "./Button";
 
@@ -8,17 +7,16 @@ export default function CookiesConsent() {
   const [showConsent, setShowConsent] = useState(false);
 
   useEffect(() => {
-    if (!hasCookie("localConsent")) {
+    const timeout = setTimeout(() => {
       setShowConsent(true);
-    }
-  }, []);
+    }, 3000); 
+
+    // Clean up the timeout to prevent memory leaks
+    return () => clearTimeout(timeout);
+  }, []); // Run once on component mount
 
   const acceptCookie = () => {
     setShowConsent(false);
-
-    const expirationDate = new Date();
-    expirationDate.setDate(expirationDate.getDate() + 365); // Set expiration to 1 year from now
-    setCookie("localConsent", "true", { expires: expirationDate });
   };
 
   if (showConsent) {
@@ -40,6 +38,8 @@ export default function CookiesConsent() {
     return null;
   }
 }
+
+
  
 /* 
 "use client";
