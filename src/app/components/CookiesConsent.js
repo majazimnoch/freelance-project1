@@ -9,10 +9,13 @@ export default function CookiesConsent() {
   const [showOverlay, setShowOverlay] = useState(false);
 
   useEffect(() => {
-    if (!hasCookie("localConsent")) {
-      setShowConsent(true);
-      setShowOverlay(true); // Show overlay when consent is not given
-    }
+    const timer = setTimeout(() => {
+        if (!hasCookie("localConsent")) {
+        setShowConsent(true);
+        setShowOverlay(true); // Show overlay when consent is not given
+        }
+    }, 1500);
+    return () => clearTimeout(timer);
   }, []);
 
   const acceptCookie = () => {
