@@ -13,7 +13,7 @@ export default function Section1() {
             className="icon-section"
           />
           <div className="absolute w-full p-4 py-20 text-center">
-            <h2 className="text-background py-2.5 px-7.5 text-base my-4.5">Card one</h2>
+            <h2 className="text-background text-2xl font-pacifico py-2.5 px-7.5 my-4.5">Card one</h2>
             <p className="text-background leading-normal">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
               tempore nulla in eum nisi laboriosam reiciendis porro accusamus,
@@ -32,7 +32,7 @@ export default function Section1() {
             className="icon-section"
           />
           <div className="absolute w-full p-4 py-20 text-center">
-            <h2 className="text-background py-2.5 px-7.5 text-base my-4.5">Card one</h2>
+            <h2 className="text-background font-pacifico py-2.5 px-7.5 text-2xl my-4.5">Card two</h2>
             <p className="text-background leading-normal">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
               tempore nulla in eum nisi laboriosam reiciendis porro accusamus,
@@ -50,7 +50,7 @@ export default function Section1() {
             className="icon-section"
           />
           <div className="absolute w-full p-4 py-20 text-center">
-            <h2 className="text-background py-2.5 px-7.5 text-base my-4.5">Card one</h2>
+            <h2 className="text-background font-pacifico py-2.5 px-7.5 text-2xl my-4.5">Card three</h2>
             <p className="text-background leading-normal">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis
               tempore nulla in eum nisi laboriosam reiciendis porro accusamus,
