@@ -30,7 +30,7 @@ export default function Intro() {
             molestie. Mauris egestas a justo ut condimentum.
           </p>
         </div>
-</div>
+      </div>
 
       <div>
       <Button buttonText="Umow wizyte" imageSrc="/images/arrow.png" link="/pages/kontakt" />
