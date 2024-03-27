@@ -1,6 +1,7 @@
 import Footer from "@/app/components/Footer";
 import Kontakt from "@/app/components/Kontakt";
 import Navbar from "@/app/components/Navbar";
+import UnderFooter from "@/app/components/Underfooter";
 import React from "react";
 
 export default function page() {
@@ -11,6 +12,7 @@ export default function page() {
         <Kontakt />
       </div>
       <Footer />
+      <UnderFooter />
     </div>
   );
 }
