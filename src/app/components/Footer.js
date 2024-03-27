@@ -7,10 +7,9 @@ import LottieAnimation from "./LottieAnimation"; // Import your LottieAnimation 
 export default function Footer() {
   return (
     <div>
-      <div className="bg-background flex flex-col md:flex-row gap-10 justify-center items-center px-20 py-10">
+      <div className="bg-background flex flex-col md:flex-row gap-10 justify-center items-center px-20 py-20">
         <div className="flex flex-col gap-3">
           <Button buttonText="Umow wizyte" imageSrc="/images/arrow.png" link="/pages/kontakt" />
-
         </div>
         <div className="flex flex-row gap-5">
           <Link href="/">
@@ -40,6 +39,14 @@ export default function Footer() {
               className="social-icon"
             />
           </Link>
+        </div>
+        <div>
+        <Image
+              src="/images/lion.png"
+              alt="Instagram"
+              width={180}
+              height={180}
+            />
         </div>
       </div>
       <div>
