@@ -25,13 +25,13 @@
   }
 }
 /* Button arrow */
-button {
+/* button {
   transition: background-color 0.3s ease-in-out;
 }
 
 button:hover {
   background-color: #ffc638;
-}
+} */
 
 button:hover .arrow-btn {
   transform: translateX(5px); /* Adjust the value as needed */
