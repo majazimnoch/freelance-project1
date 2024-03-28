@@ -46,7 +46,12 @@ export default function CookiesConsent() {
               "Accept," you consent to our cookie usage. Read more about it{" "}
               <Link href="/pages/cookies"> here </Link>.
             </span>
-            <Button buttonText="Accept" onClick={acceptCookie} />
+            <Button
+              buttonText="Accept"
+              onClick={acceptCookie}
+              bgColor="bg-background"
+              hoverBgColor="bg-secondary"
+            />
           </div>
         </div>
       </div>
