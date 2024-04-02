@@ -18,10 +18,10 @@ export default function Navbar() {
       </div>
       <div className="flex flex-row gap-10 list-none text-background ">
         <li>
-          <Link href="/">Strona glowna</Link>
+          <Link href="/">Home page</Link>
         </li>
         <li>
-          <Link href="/pages/kontakt">Kontakt</Link>
+          <Link href="/pages/kontakt">Contact</Link>
         </li>
       </div>
     </div>

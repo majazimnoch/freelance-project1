@@ -3,24 +3,22 @@ import Image from "next/image";
 
 export default function Kontakt() {
   return (
-     <div className="bg-primary lg:px-20 lg:py-40 flex flex-col justify-center gap-10 lg:flex-row">
+    <div className="bg-primary lg:px-20 lg:py-40 flex flex-col justify-center gap-10 lg:flex-row">
       <div className="flex flex-col gap-10 p-10">
         <div className="flex flex-row gap-5 items-center">
           <div className="flex items-center justify-center">
             <Image
               src="/images/pin.png"
               alt="logo"
-              width={60}  
-              height={60} 
+              width={60}
+              height={60}
               className="logo-nav"
             />
           </div>
           <div className="flex flex-col w-9/12">
-            <h2 className="font-bold">Bogumila Zimnoch</h2>
-            <p>
-              Wizyty indywidualne.
-            </p>
-            <p>Popieluszki 27/44 94-052 Lodz</p>
+            <h2 className="font-bold">Jane Doe</h2>
+            <p>Example Street Name 1/2</p>
+            <p>345 67 London</p>
           </div>
         </div>
 
@@ -29,15 +27,15 @@ export default function Kontakt() {
             <Image
               src="/images/mobile.png"
               alt="logo"
-              width={60}  
-              height={60} 
+              width={60}
+              height={60}
               className="logo-nav"
             />
           </div>
           <div className="flex flex-col w-9/12">
-            <h2 className="font-bold">Skontaktuj sie</h2>
-            <p>534564564647</p>
-            <p>mskadsd@efws.com</p>
+            <h2 className="font-bold">Get in touch!</h2>
+            <p>534 564 564 647</p>
+            <p>test_email@test.com</p>
           </div>
         </div>
       </div>
