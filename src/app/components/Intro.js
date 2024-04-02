@@ -11,7 +11,7 @@ export default function Intro() {
           <div
             className="bg-cover bg-center rounded-full"
             style={{
-              backgroundImage: "url(/images/bogna.jpg)",
+              backgroundImage: "url(/images/woman.jpg)",
               width: "250px",
               height: "250px",
               margin: "20px",
