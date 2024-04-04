@@ -68,8 +68,8 @@ export default function Latest() {
             buttonText="Wroc na strone glowna"
             imageSrc="/images/arrow.png"
             link="/"
-            bgColor="bg-background"
-            hoverBgColor="bg-secondary"
+            hoverBgColor="bg-background"
+            bgColor="bg-secondary"
           />
         </div>
       </div>
