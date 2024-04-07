@@ -44,17 +44,15 @@ button:hover .arrow-btn {
 .social-icon {
   transition: all 0.2s ease-in-out;
 }
-
 .social-icon:hover {
   transform: scale(1.1);
 }
-/* Social icons in the footer */
 
+/* Social icons in the footer */
 
 a {
   transition: color 0.3s ease-in-out; 
 }
-
 a:hover {
   color: #ffc638; 
 }

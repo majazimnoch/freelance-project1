@@ -11,7 +11,7 @@ export default function Latest() {
   return (
     <>
       <Navbar />
-      <div className="bg-primary text-background flex flex-col items-center py-20 gap-10">
+      <div className="bg-secondary text-background flex flex-col items-center py-20 gap-10">
         <div className="px-5 md:px-20 lg:px-40 flex flex-col lg:flex-row gap-5 justify-center items-center">
           <div className="p-5 w-80 md:w-96 lg:w-600 flex flex-col gap-8 justify-center items-center text-left">
             <h1 className="text-2xl">Cookies Policy!</h1>
@@ -65,11 +65,10 @@ export default function Latest() {
 
         <div>
           <Button
-            buttonText="Wroc na strone glowna"
+            buttonText="Go back"
             imageSrc="/images/arrow.png"
             link="/"
-            hoverBgColor="bg-background"
-            bgColor="bg-secondary"
+            bgColor="bg-background"
           />
         </div>
       </div>

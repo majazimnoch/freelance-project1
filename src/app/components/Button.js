@@ -8,22 +8,20 @@ export default function Button({
   link,
   onClick,
   bgColor,
-  hoverBgColor,
 }) {
   const buttonStyles = {
     backgroundColor: bgColor || "bg-secondary",
-    hoverBackgroundColor: hoverBgColor || "bg-primary",
   };
 
   const buttonContent = (
     <button
       onClick={onClick}
-      className={`${buttonStyles.backgroundColor} hover:${buttonStyles.hoverBackgroundColor} text-white flex flex-row items-center py-4 px-6 rounded-xl transition-colors duration-300`}
+      className={`${buttonStyles.backgroundColor} hover:bg-primary text-white flex flex-row items-center py-4 px-6 rounded-xl transition-colors duration-300`}
     >
       <p>{buttonText}</p>
       {imageSrc && (
         <Image
-          src={imageSrc}
+          src="/images/chevron.png"
           alt="logo"
           width={30}
           height={30}

@@ -4,9 +4,7 @@ import Button from "./Button";
 export default function Intro() {
   return (
     <div className="bg-background text-white flex flex-col items-center py-20 gap-10">
-
       <div className="px-5 md:px-20 lg:px-40 flex flex-col lg:flex-row gap-5 justify-center items-center">
-        
         <div className="flex items-center">
           <div
             className="bg-cover bg-center rounded-full"
@@ -33,9 +31,12 @@ export default function Intro() {
       </div>
 
       <div>
-      <Button buttonText="Umow wizyte" imageSrc="/images/arrow.png" link="/pages/kontakt" />
+        <Button
+          buttonText="Umow wizyte"
+          imageSrc="/images/arrow.png"
+          link="/pages/kontakt"
+        />
       </div>
-
     </div>
   );
 }

@@ -40,8 +40,8 @@ export default function CookiesConsent() {
         }`}
       >
         <div className="w-full">
-          <div className="bg-primary px-10 py-8 flex items-center justify-around gap-2">
-            <span className="text-background">
+          <div className="bg-secondary px-10 py-8 flex items-center justify-around gap-2">
+            <span className="text-white">
               We use cookies to enhance your browsing experience. By clicking
               "Accept," you consent to our cookie usage. Read more about it{" "}
               <Link href="/pages/cookies"> here </Link>.
@@ -49,8 +49,7 @@ export default function CookiesConsent() {
             <Button
               buttonText="Accept"
               onClick={acceptCookie}
-              hoverBgColor="bg-background"
-              bgColor="bg-secondary"
+              bgColor="bg-background"
             />
           </div>
         </div>
