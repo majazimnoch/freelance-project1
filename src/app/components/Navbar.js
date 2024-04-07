@@ -4,14 +4,14 @@ import Image from "next/image";
 
 export default function Navbar() {
   return (
-    <div className="font-bold flex flex-row md:text-lg justify-between items-center p-10 bg-white">
+    <div className="font-bold flex flex-row md:text-lg justify-between items-center px-10 py-4 bg-white">
       <div>
         <Link href="/">
           <Image
             src="/images/icon.png"
             alt="logo"
-            width={30}
-            height={30}
+            width={80}
+            height={80}
             className="logo-nav"
           />
         </Link>
