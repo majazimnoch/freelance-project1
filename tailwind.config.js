@@ -17,11 +17,11 @@ module.exports = {
     extend: {
       fontFamily: {
         Manrope: ["Manrope", "sans-serif"],
-        pacifico: ['Pacifico', 'cursive']
+        pacifico: ["Pacifico", "cursive"],
       },
       width: {
-        '600': '600px',
-       }
+        600: "600px",
+      },
     },
   },
   plugins: [],
