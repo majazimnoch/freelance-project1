@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Witaj na stronie Fajnej Logopedki!</title>
+        <title>Example Business Page</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body className="bg-white">
