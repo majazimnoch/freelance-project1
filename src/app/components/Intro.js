@@ -31,7 +31,12 @@ export default function Intro() {
       </div>
 
       <div>
-        <Button buttonText="Book a visit" link="/pages/kontakt" />
+        <Button
+          buttonText="Book a visit"
+          link="/pages/kontakt"
+          hasImage="true"
+          imageSrc="/images/chevron.png"
+        />
       </div>
     </div>
   );

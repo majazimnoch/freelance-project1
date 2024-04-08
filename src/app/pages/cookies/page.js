@@ -64,7 +64,13 @@ export default function Latest() {
         </div>
 
         <div>
-          <Button buttonText="Go back" link="/" bgColor="bg-background" />
+          <Button
+            buttonText="Go back"
+            link="/"
+            bgColor="bg-background"
+            hasImage="true"
+            imageSrc="/images/chevron.png"
+          />
         </div>
       </div>
       <Footer />

@@ -40,11 +40,14 @@ export default function CookiesConsent() {
         }`}
       >
         <div className="w-full">
-          <div className="bg-secondary px-10 py-8 flex items-center justify-around gap-2">
+          <div className="bg-secondary px-10 py-8 flex items-center justify-around gap-4">
             <span className="text-white">
               We use cookies to enhance your browsing experience. By clicking
-              "Accept," you consent to our cookie usage. Read more about it{" "}
-              <Link href="/pages/cookies"> here </Link>.
+              "Accept," you consent to our cookie usage. Read more about it
+              <em>
+                <Link href="/pages/cookies"> here</Link>
+              </em>
+              .
             </span>
             <Button
               buttonText="Accept"
